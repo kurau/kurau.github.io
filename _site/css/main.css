@@ -80,7 +80,7 @@ a:hover {
   border-bottom: 2px dotted #000; }
 
 .post-content h2:before {
-  content: "¶ ";
+  content: "☆ ";
   margin-right: 20px;
   color: #25bcba; }
 
