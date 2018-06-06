@@ -8,7 +8,7 @@ baseurl: ""
 url: "http://kurau.github.io" # the base hostname & protocol for your site
 twitter_username: "kuraushka"
 github_username: "kurau"
-disqus_username: # your disqus username
+disqus_username: "kurau"
 
 google-analytics: # add it if you have one
 
