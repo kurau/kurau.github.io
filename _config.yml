@@ -1,14 +1,14 @@
 # Site settings
-title: "1234"
-name: "Kuraus >_<" # your name
-email: "kurau@gmail.com" # your email address
+title: "Kurau's Blog"
+name: "Kuraus >_<"
+email: "kurau@gmail.com"
 description: >
     Что здесь? Кто здесь?
 baseurl: ""
-url: "http://kurau.github.io" # the base hostname & protocol for your site
+url: "http://kurau.github.io"
 twitter_username: "kuraushka"
 github_username: "kurau"
-disqus_username: "kurau"
+disqus_username: "kurau-github-io"
 
 google-analytics: # add it if you have one
 
