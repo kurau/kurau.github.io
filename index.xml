@@ -24,5 +24,14 @@
 Допустим у нас есть кубик 1-6. Мы считаем, что вероятность выпаденияя каждого числа одинакова.</description>
     </item>
     
+    <item>
+      <title>About</title>
+      <link>https://kurau.github.io/about/</link>
+      <pubDate>Mon, 14 May 2018 15:42:26 +0300</pubDate>
+      
+      <guid>https://kurau.github.io/about/</guid>
+      <description>Привет!</description>
+    </item>
+    
   </channel>
 </rss>
