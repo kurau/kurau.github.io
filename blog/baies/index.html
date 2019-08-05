@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Байесовская вероятность :: Terminal — A simple, retro theme for Hugo</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Тут не будет формул и всего такого.
+Вчера встречался со старым другом Джедаем. Обсуждали книгу Канемана «Думай медленно, решай быстро» и машинное обучение.
+Два основных тезиса: 1) человеческая интуиция совершенно не умеет байесовскую вероятность 2) машинное обучение очень сильно завязано на байесовскую вероятность
+Вообще тема очень интересная. На будущее если я буду кому-то объяснять, зачем оно всё нужно, буду приводить такой пример.
+Допустим у нас есть кубик 1-6. Мы считаем, что вероятность выпаденияя каждого числа одинакова."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://kurau.github.io/blog/baies/" />
+
+
+<link rel="stylesheet" href="https://kurau.github.io/assets/style.css">
+
+  <link rel="stylesheet" href="https://kurau.github.io/assets/green.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://kurau.github.io/img/apple-touch-icon-144-precomposed.png">
+
+<link rel="shortcut icon" href="https://kurau.github.io/img/favicon/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Байесовская вероятность :: Terminal — A simple, retro theme for Hugo" />
+<meta name="twitter:description" content="Тут не будет формул и всего такого.
+Вчера встречался со старым другом Джедаем. Обсуждали книгу Канемана «Думай медленно, решай быстро» и машинное обучение.
+Два основных тезиса: 1) человеческая интуиция совершенно не умеет байесовскую вероятность 2) машинное обучение очень сильно завязано на байесовскую вероятность
+Вообще тема очень интересная. На будущее если я буду кому-то объяснять, зачем оно всё нужно, буду приводить такой пример.
+Допустим у нас есть кубик 1-6. Мы считаем, что вероятность выпаденияя каждого числа одинакова." />
+<meta name="twitter:site" content="https://kurau.github.io" />
+<meta name="twitter:creator" content="Yuri Kalinin" />
+<meta name="twitter:image" content="">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Байесовская вероятность :: Terminal — A simple, retro theme for Hugo">
+<meta property="og:description" content="Тут не будет формул и всего такого.
+Вчера встречался со старым другом Джедаем. Обсуждали книгу Канемана «Думай медленно, решай быстро» и машинное обучение.
+Два основных тезиса: 1) человеческая интуиция совершенно не умеет байесовскую вероятность 2) машинное обучение очень сильно завязано на байесовскую вероятность
+Вообще тема очень интересная. На будущее если я буду кому-то объяснять, зачем оно всё нужно, буду приводить такой пример.
+Допустим у нас есть кубик 1-6. Мы считаем, что вероятность выпаденияя каждого числа одинакова." />
+<meta property="og:url" content="https://kurau.github.io/blog/baies/" />
+<meta property="og:site_name" content="Байесовская вероятность" />
+<meta property="og:image" content="">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2018-06-04 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    B-b-blog
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/blog">Blog</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/blog">Blog</a></li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://kurau.github.io/blog/baies/">Байесовская вероятность</a></h1>
+  <div class="post-meta">
+      
+    <span class="post-date">
+      2018-06-04
+    </span>
+    
+    
+    <span class="post-author">::
+      Yuri Kalinin
+    </span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="https://kurau.github.io/tags/personal/">personal</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  <div class="post-content">
+    <p>Тут не будет формул и всего такого.</p>
+
+<p>Вчера встречался со старым другом Джедаем. Обсуждали книгу Канемана «Думай медленно, решай быстро»
+и машинное обучение.</p>
+
+<p>Два основных тезиса:
+1) человеческая интуиция совершенно не умеет байесовскую вероятность
+2) машинное обучение очень сильно завязано на байесовскую вероятность</p>
+
+<p>Вообще тема очень интересная. На будущее если я буду кому-то объяснять, зачем оно всё нужно, буду приводить такой пример.</p>
+
+<p>Допустим у нас есть кубик 1-6. Мы считаем, что вероятность выпаденияя каждого числа одинакова.
+Но если кубик у нас не честный и шестёрка выпадает чаще, нужно менять наше представление о кубике.
+Ровно этим и занимается байесовская вероятность. Она меняет наши ожидания об этом конкретном кубике
+на основании уже известных опытов. С помощью неё можно пересчитать новые верятности для каждого числа.
+Не <sup>1</sup>&frasl;<sub>6</sub> для всего, а напрмер <sup>3</sup>&frasl;<sub>8</sub> для шестёрки и <sup>1</sup>&frasl;<sub>8</sub> для всего остального.</p>
+
+<p>Понятно, что после каждого опыта эти числа будут меняться.
+Как часто тогда нужно пересчитывать новую вероятность? Это уже другая задача, которую, как
+я понимаю, решают в каждом конкретном случае по своему.</p>
+
+  </div>
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2019 Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="https://kurau.github.io/assets/main.js"></script>
+<script src="https://kurau.github.io/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Terminal</title>
+    <link>https://kurau.github.io/blog/</link>
+    <description>Recent content in Blogs on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kurau.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Байесовская вероятность</title>
+      <link>https://kurau.github.io/blog/baies/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kurau.github.io/blog/baies/</guid>
+      <description>Тут не будет формул и всего такого.
+Вчера встречался со старым другом Джедаем. Обсуждали книгу Канемана «Думай медленно, решай быстро» и машинное обучение.
+Два основных тезиса: 1) человеческая интуиция совершенно не умеет байесовскую вероятность 2) машинное обучение очень сильно завязано на байесовскую вероятность
+Вообще тема очень интересная. На будущее если я буду кому-то объяснять, зачем оно всё нужно, буду приводить такой пример.
+Допустим у нас есть кубик 1-6. Мы считаем, что вероятность выпаденияя каждого числа одинакова.</description>
+    </item>
+    
+  </channel>
+</rss>
