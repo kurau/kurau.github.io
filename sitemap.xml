@@ -7,19 +7,15 @@
   </url>
   
   <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
     <loc>/posts/my-first-post/</loc>
   </url>
   
   <url>
-    <loc>/tags/22/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/333/</loc>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
+    <loc>/tags/personal/</loc>
   </url>
   
   <url>
