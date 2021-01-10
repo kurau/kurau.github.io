@@ -1,29 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="https://kurau.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/</loc>
+    <loc>https://kurau.github.io/post/first/</loc>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://kurau.github.io/about/</loc>
+    <lastmod>2020-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/my-first-post/</loc>
+    <loc>https://kurau.github.io/tags/anime/</loc>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/personal/</loc>
+    <loc>https://kurau.github.io/categories/</loc>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>https://kurau.github.io/tags/personal/</loc>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://kurau.github.io/categories/post/</loc>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/post/</loc>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/tags/</loc>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/tags/allure/</loc>
+    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/drafts/allure-junit4/</loc>
+    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/tags/automated-testing/</loc>
+    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/drafts/</loc>
+    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/tags/junit4/</loc>
+    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/</loc>
+    <lastmod>2020-03-07T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
