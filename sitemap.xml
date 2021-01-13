@@ -1,10 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="https://kurau.github.io/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>https://kurau.github.io/post/first/</loc>
-    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
-  </url>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://kurau.github.io/about/</loc>
@@ -12,32 +8,62 @@
   </url>
   
   <url>
-    <loc>https://kurau.github.io/tags/anime/</loc>
-    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
+    <loc>https://kurau.github.io/tags/automation-testing/</loc>
+    <lastmod>2021-01-11T00:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://kurau.github.io/categories/</loc>
+    <lastmod>2021-01-11T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/tags/locators/</loc>
+    <lastmod>2021-01-11T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/categories/post/</loc>
+    <lastmod>2021-01-11T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/post/</loc>
+    <lastmod>2021-01-11T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/tags/</loc>
+    <lastmod>2021-01-11T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/tags/webdriver/</loc>
+    <lastmod>2021-01-11T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/2021/01/11/first/</loc>
+    <lastmod>2021-01-11T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/categories/anime/</loc>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/anime/</loc>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kurau.github.io/anime/anime/</loc>
     <lastmod>2021-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://kurau.github.io/tags/personal/</loc>
-    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kurau.github.io/categories/post/</loc>
-    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kurau.github.io/post/</loc>
-    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kurau.github.io/tags/</loc>
     <lastmod>2021-01-10T00:00:00+00:00</lastmod>
   </url>
   

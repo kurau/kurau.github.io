@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<title>Выбор локаторов для UI тестов на WebDriver</title>
+
+
+  
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="https://kurau.github.io/index.xml"
+  title="Some Kind Of UmU"
+/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Выбор локаторов для UI тестов на WebDriver"/>
+<meta name="twitter:description" content="Guide to emoji usage in Hugo"/>
+
+
+
+<link rel="stylesheet" href="https://kurau.github.io/fontawesome/css/all.min.css" />
+
+  <link rel="stylesheet" href="https://kurau.github.io/css/custom.css" />
+
+<link
+  id="dark-mode-theme"
+  rel="stylesheet"
+  href="https://kurau.github.io/css/dark.css"
+/>
+<link rel="icon" href="https://kurau.github.io/images/icon.png">
+
+<script>
+  var darkTheme = document.getElementById('dark-mode-theme')
+  var storedTheme = localStorage.getItem('dark-mode-storage')
+  if (storedTheme === 'dark') {
+    darkTheme.disabled = false
+  } else if (storedTheme === 'light') {
+    darkTheme.disabled = true
+  }
+</script>
+
+<script src="https://kurau.github.io/js/bundle.js"></script>
+<script src="https://kurau.github.io/js/instantpage.min.js" type="module" defer></script>
+<meta name="generator" content="Hugo 0.66.0" />
+  </head>
+  <body>
+    
+  
+
+
+
+
+  <header>
+    <nav class="navbar">
+  <div class="nav">
+    
+        <a href="https://kurau.github.io/" class="nav-logo">
+        <img
+          src="https://kurau.github.io/images/icon.png"
+          width="50"
+          height="50"
+          alt="Logo"
+        />
+        </a>
+    
+
+    <ul class="nav-links">
+      
+        
+          <li>
+            <a href="/about/" id="About">About</a>
+          </li>
+        
+      
+        
+          <li>
+            <a href="/post/" id="Posts">Posts</a>
+          </li>
+        
+      
+        
+          <li>
+            <a href="/anime/" id="Anime">Anime</a>
+          </li>
+        
+      
+        
+          <li>
+            <a href="/tags/" id="Tags">Tags</a>
+          </li>
+        
+      
+    </ul>
+  </div>
+</nav>
+
+    <div class="intro-header">
+      <div class="container">
+        <div class="post-heading">
+          
+            <h1>
+              Выбор локаторов для UI тестов на WebDriver
+            </h1>
+          
+          
+            <span class="meta-post">
+  <em class="fa fa-calendar-alt"></em
+  >&nbsp;Jan 11, 2021
+  
+    &nbsp;&nbsp;&nbsp;<em class="fa fa-folder-open"></em>&nbsp;
+    
+      <a href="https://kurau.github.io/categories/post/">post</a
+      >&nbsp;
+    
+  
+</span>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+  
+
+    
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      
+  <p>Давно хотел написать про несколько важных вещей,
+на которые стоит обращать внимание при поиске локатров на странице.</p>
+<p>При написании автотестов на вёрстку важной частью работы является описание локаторов для функциональных элементов.
+Сам по себе язык запросов для поиска (xpath или css) довольно легко освоить. Но помимо формальных правил есть
+и другие, кототырые рождаются непосредственно при работе и отладке большого проекта.</p>
+<h1 id="isdisplayed">isDisplayed</h1>
+<p>Главная на мой взгляд вещь, от которой я отталкиваюсь при поиске локаторов, заключается в нюансах работы
+метода <code>isDisplayed()</code>. А именно его &ldquo;не работы&rdquo;.</p>
+<p>Суть такова - если элемент ищется на странице, то он <code>isDisplayed()</code>, независимо, скрыт он за другим элементом
+или вообще <code>hidden</code>. С таким же успехом можно использовать <code>exist()</code>.
+Но так сложилось, что все используют первый.</p>
+<h1 id="всегда-только-один">Всегда только один</h1>
+<p>Локатор всегда должен находить ровно один элемент на странице.
+Это особенно актуально для тех, кто использует <code>Page Object</code>.
+Если мы отступаем от этого правила, то у нас появляются плавающие ошибки - элемент находится с вероятностью 50%.</p>
+<h1 id="зависимость-от-состояния">Зависимость от состояния</h1>
+<p>Всегда нужно смотреть на состояние страницы. У элементов могут меняться локаторы после взаимодействия с ними,
+могут появляться дополнительные слои и скрытые блоки.
+Поэтому если на каком то этапе написания теста элемент не находится,
+то стоит зайти на эту страницу тем же способом, что и ваш тест, и посмотреть, остались ли актуальными ваши локаторы.</p>
+<h1 id="нюансы-приложения">Нюансы приложения</h1>
+<p>Как много правил бы мы не прочитали и придумали, всегда наступит момент, когда мы столкнёмся с специфичной работой
+какого-то конкретного сайта. Главное вовремя это осознать и не тратить силы на попытки описать уникальные
+структуры с помощью общих, но неактуальных для них техник и подходов. Всегда подстрайвайтесь под ситуацию.</p>
+
+
+
+      
+        <div class="blog-tags">
+          
+            <a href="https://kurau.github.io/tags/automation-testing/">automation testing</a
+            >&nbsp;
+          
+            <a href="https://kurau.github.io/tags/webdriver/">webdriver</a
+            >&nbsp;
+          
+            <a href="https://kurau.github.io/tags/locators/">locators</a
+            >&nbsp;
+          
+        </div>
+      
+    </article>
+    
+    
+      
+
+    
+  </div>
+
+    <footer>
+  
+  <div>
+    
+      <a href="https://twitter.com/Kuraushka" name="twitter"
+        ><em class="fab fa-twitter"></em
+      ></a>
+    
+
+
+
+
+  
+  <div class="container">
+    <p class="credits copyright">
+      <a href="https://kurau.github.io/about">Yuri Kalinin</a>
+      &nbsp;&copy;
+      2021
+      
+        &nbsp;/&nbsp;
+        <a href="https://kurau.github.io/">Some Kind Of UmU</a>
+      
+      &nbsp;&ndash;&nbsp;
+      <em class="fas fa-moon" id="dark-mode-toggle"></em>
+    </p>
+
+    <p class="credits theme-by">
+      Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;
+      Theme
+      <a href="https://github.com/matsuyoshi30/harbor">Harbor</a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

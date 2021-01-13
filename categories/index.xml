@@ -1,24 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Some Kind of umu</title>
-    <link>https://kurau.github.io/categories/</link>
-    <description>Recent content in Categories on Some Kind of umu</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://kurau.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>post</title>
-      <link>https://kurau.github.io/categories/post/</link>
-      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kurau.github.io/categories/post/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Categories on Some Kind Of UmU</title>
+		<link>https://kurau.github.io/categories/</link>
+		<description>Recent content in Categories </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>en</language>
+		
+		<managingEditor>Page(/categories) (Yuri Kalinin)</managingEditor>
+    	
+  		<lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0300</lastBuildDate>
+		
+		<atom:link href="/categories/" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Выбор локаторов для UI тестов на WebDriver</title>
+			<link>https://kurau.github.io/2021/01/11/first/</link>
+			<pubDate>Mon, 11 Jan 2021 00:00:00 +0300</pubDate>
+			<guid>https://kurau.github.io/2021/01/11/first/</guid>
+			<description>&lt;p&gt;Давно хотел написать про несколько важных вещей,
+на которые стоит обращать внимание при поиске локатров на странице.&lt;/p&gt;</description>
+		</item>
+      	
+	</channel>
 </rss>

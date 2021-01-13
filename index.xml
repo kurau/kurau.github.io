@@ -1,43 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Some Kind of umu</title>
-    <link>https://kurau.github.io/</link>
-    <description>Recent content on Some Kind of umu</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 07 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://kurau.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>First</title>
-      <link>https://kurau.github.io/post/first/</link>
-      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kurau.github.io/post/first/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://kurau.github.io/about/</link>
-      <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kurau.github.io/about/</guid>
-      <description>Обо всём Привет! Здесь будет собрано немного туториалов и мыслей обо всём!</description>
-    </item>
-    
-    <item>
-      <title>Allure and JUnit4</title>
-      <link>https://kurau.github.io/drafts/allure-junit4/</link>
-      <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kurau.github.io/drafts/allure-junit4/</guid>
-      <description>Подключение Уверен, есть много туториалов на эту тему. В том числе есть подробный гайд у самих ребят из QaMeta по тому как настроить работу Allure + JUnit4. Здесь мне хочется его повторить с уклоном в те вещи, которые мне кажутся важными и о которых не так много пишут.
-Вообще суть аллюра это дополнительный сбор информации которая появляется в процессе выполнения тестов, сохранение этой информации и последующее представление в виде html&#39;ки.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Some Kind Of UmU on Some Kind Of UmU</title>
+		<link>https://kurau.github.io/</link>
+		<description>Recent content in Some Kind Of UmU </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>en</language>
+		
+		<managingEditor>Page(&#34;Some Kind Of UmU&#34;) (Yuri Kalinin)</managingEditor>
+    	
+  		<lastBuildDate>Sat, 07 Mar 2020 00:00:00 +0000</lastBuildDate>
+		
+		<atom:link href="/" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Выбор локаторов для UI тестов на WebDriver</title>
+			<link>https://kurau.github.io/2021/01/11/first/</link>
+			<pubDate>Mon, 11 Jan 2021 00:00:00 +0300</pubDate>
+			<guid>https://kurau.github.io/2021/01/11/first/</guid>
+			<description>&lt;p&gt;Давно хотел написать про несколько важных вещей,
+на которые стоит обращать внимание при поиске локатров на странице.&lt;/p&gt;</description>
+		</item>
+      	
+	</channel>
 </rss>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>junit4 on Some Kind Of UmU</title>
+		<link>https://kurau.github.io/tags/junit4/</link>
+		<description>Recent content in junit4 </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>en</language>
+		
+		<managingEditor>Page(/tags/junit4) (Yuri Kalinin)</managingEditor>
+    	
+  		<lastBuildDate>Sat, 07 Mar 2020 00:00:00 +0000</lastBuildDate>
+		
+		<atom:link href="/tags/junit4/" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Выбор локаторов для UI тестов на WebDriver</title>
+			<link>https://kurau.github.io/2021/01/11/first/</link>
+			<pubDate>Mon, 11 Jan 2021 00:00:00 +0300</pubDate>
+			<guid>https://kurau.github.io/2021/01/11/first/</guid>
+			<description>&lt;p&gt;Давно хотел написать про несколько важных вещей,
+на которые стоит обращать внимание при поиске локатров на странице.&lt;/p&gt;</description>
+		</item>
+      	
+	</channel>
+</rss>

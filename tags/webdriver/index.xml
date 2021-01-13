@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>webdriver on Some Kind Of UmU</title>
+		<link>https://kurau.github.io/tags/webdriver/</link>
+		<description>Recent content in webdriver </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>en</language>
+		
+		<managingEditor>Page(/tags/webdriver) (Yuri Kalinin)</managingEditor>
+    	
+  		<lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0300</lastBuildDate>
+		
+		<atom:link href="/tags/webdriver/" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Выбор локаторов для UI тестов на WebDriver</title>
+			<link>https://kurau.github.io/2021/01/11/first/</link>
+			<pubDate>Mon, 11 Jan 2021 00:00:00 +0300</pubDate>
+			<guid>https://kurau.github.io/2021/01/11/first/</guid>
+			<description>&lt;p&gt;Давно хотел написать про несколько важных вещей,
+на которые стоит обращать внимание при поиске локатров на странице.&lt;/p&gt;</description>
+		</item>
+      	
+	</channel>
+</rss>
